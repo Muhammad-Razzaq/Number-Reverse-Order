@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Reverse Order</title>
+</head>
+
+<body>
+    <h3>You Enter : </h3><p id="userEnter"></p>
+    <h3>Reverse   : </h3><p id="reverseOrder"></p>
+</body>
+<script>
+    //9----------------------------------------------------------------------------
+    let arr = [];
+    for (i = 0; i < 5; i++) {
+        let num = prompt("Enter Number : ");
+        arr.push(num);
+    }
+    document.getElementById("userEnter").innerHTML = arr;
+    arr.reverse();
+    document.getElementById("reverseOrder").innerHTML = arr;
+    
+</script>
+
+</html>
